@@ -1,0 +1,27 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Kanit", sans-serif;
+}
+
+::-webkit-scrollbar {
+   width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+   background: #171717;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: rgb(37, 188, 57);
+   background: linear-gradient(0deg, rgba(37, 188, 57, 1) 0%, rgba(186, 235, 30, 1) 100%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+   background: rgb(37, 188, 57);
+   background: linear-gradient(0deg, rgba(37, 188, 57, 1) 0%, rgba(186, 235, 30, 1) 100%);
+}
